@@ -1,35 +1,41 @@
 {
     "categories": [
       {
-        "category_id": "CAT001",
-        "category_name": "Laptops",
-        "description": "Latest high-performance laptops for work and gaming."
+        "category_id": "ALL001",
+        "category": "products",
+        "description": "ALL"
       },
       {
         "category_id": "CAT002",
-        "category_name": "Accessories",
-        "description": "Essential accessories for laptops, phones, and more."
+        "category": "Laptop",
+        "description": "Latest high-performance laptops for work and gaming."
       },
       {
         "category_id": "CAT003",
-        "category_name": "Smartwatches",
-        "description": "Advanced smartwatches with health and fitness tracking."
+        "category": "Accessories",
+        "description": "Essential accessories for laptops, phones, and more."
       },
       {
         "category_id": "CAT004",
-        "category_name": "Phones",
-        "description": "Latest smartphones with advanced technology and features."
+        "category": "Smart Watch",
+        "description": "Advanced smartwatches with health and fitness tracking."
       },
       {
         "category_id": "CAT005",
-        "category_name": "iPhone",
-        "description": "Premium Apple iPhones with cutting-edge innovation."
+        "category": "Phones",
+        "description": "Latest smartphones with advanced technology and features."
       },
       {
         "category_id": "CAT006",
-        "category_name": "MacBook",
+        "category": "iPhones",
+        "description": "Premium Apple iPhones with cutting-edge innovation."
+      },
+      {
+        "category_id": "CAT007",
+        "category": "MacBook",
         "description": "Apple MacBooks with powerful M-series chips and sleek design."
       }
+   
     ]
   }
   
