@@ -1,4 +1,4 @@
-import { useLoaderData, useParams } from 'react-router-dom';
+import { data, useLoaderData, useParams } from 'react-router-dom';
 import Card from '../components/Card/Card';
 import { useEffect, useState } from 'react';
 
@@ -26,6 +26,8 @@ const Cards = () => {
         }
     }, [category, data]); 
 
+   
+
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {products.length > 0 ? (
@@ -40,3 +42,4 @@ const Cards = () => {
 };
 
 export default Cards;
+

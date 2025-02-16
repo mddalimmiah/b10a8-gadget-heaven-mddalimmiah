@@ -18,7 +18,7 @@ const Card = ({ product }) => {
                 <h2 className="text-lg font-bold">{product_title}</h2>
                 <p className="text-gray-600">Price: ${price}</p>
               
-                <NavLink state={{ product }} to={`/product-details/${product_id}`} className={`w-full bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600`}>
+                <NavLink  to={`/product-details/${product_id}`} className={`w-full bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600`}>
                 View Details
                 </NavLink>
             </div>
