@@ -21,7 +21,7 @@
       "product_title": "Samsung Galaxy S23 Ultra 5G",
       "product_image": "https://i.ibb.co.com/tpSJ3d24/samsung-galaxy-s23-ultra-5g-s.jpg",
       "category": "Phones",
-      "price": "$1299.99",
+      "price": 1299,
       "description": "A premium Android smartphone with top-of-the-line features and performance.",
       "Specification": [
         "6.8-inch Dynamic AMOLED 2X display",
@@ -37,7 +37,7 @@
       "product_title": "Google Pixel 7 Pro",
       "product_image": "https://i.ibb.co.com/S4nY4C0d/pixel-7-pro.webp",
       "category": "Phones",
-      "price": "$899.99",
+      "price": 899,
       "description": "Google's best AI-powered smartphone with an incredible camera.",
       "Specification": [
         "6.7-inch OLED display",
@@ -53,7 +53,7 @@
       "product_title": "OnePlus 11 5G",
       "product_image": "https://i.ibb.co.com/7tHVjhM0/one-Plus-11-5g.jpg",
       "category": "Phones",
-      "price": "$799.99",
+      "price": 799,
       "description": "A high-performance smartphone with ultra-fast charging.",
       "Specification": [
         "6.7-inch AMOLED display",
@@ -69,7 +69,7 @@
       "product_title": "Xiaomi 13 Pro",
       "product_image": "https://i.ibb.co.com/0R3VZmk2/xiami-note-13-pro.jpg",
       "category": "Phones",
-      "price": "$899.99",
+      "price": 899,
       "description": "A premium Xiaomi flagship with Leica co-engineered cameras.",
       "Specification": [
         "6.73-inch AMOLED display",
@@ -85,7 +85,7 @@
       "product_title": "Sony Xperia 1 IV",
       "product_image": "https://i.ibb.co.com/gZ1DP4W3/sonyxperia.webp",
       "category": "Phones",
-      "price": "$1199.99",
+      "price": 1199,
       "description": "Sony’s best smartphone with professional-grade photography features.",
       "Specification": [
         "6.5-inch 4K OLED display",
@@ -101,7 +101,7 @@
       "product_title": "Asus ROG Phone 6 Pro",
       "product_image": "https://i.ibb.co.com/N6X7fC7Q/asus-6.jpg",
       "category": "Phones",
-      "price": "$1099.99",
+      "price": 1099,
       "description": "A gaming-focused smartphone with top-notch performance.",
       "Specification": [
         "6.78-inch AMOLED display",
@@ -117,7 +117,7 @@
       "product_title": "Realme GT 3",
       "product_image": "https://i.ibb.co.com/hF3S5bkS/realme-gt.jpg",
       "category": "Phones",
-      "price": "$599.99",
+      "price": 599,
       "description": "A budget-friendly flagship killer with blazing fast performance.",
       "Specification": [
         "6.74-inch AMOLED display",
@@ -133,7 +133,7 @@
       "product_title": "Nothing Phone 1",
       "product_image": "https://i.ibb.co.com/pjhmQdTz/nothing-phone.png",
       "category": "Phones",
-      "price": "$499.99",
+      "price": 499,
       "description": "A unique and stylish phone with LED glyph interface.",
       "Specification": [
         "6.55-inch OLED display",
@@ -149,7 +149,7 @@
       "product_title": "Motorola Edge 30 Ultra",
       "product_image": "https://i.ibb.co.com/spmbdh5s/motorola.jpg",
       "category": "Phones",
-      "price": "$899.99",
+      "price": 899,
       "description": "A powerhouse smartphone with a 200MP camera.",
       "Specification": [
         "6.67-inch OLED display",
@@ -165,7 +165,7 @@
       "product_title": "Dell XPS 15",
       "product_image": "https://i.ibb.co.com/wZxL39yp/dell-xps-15-9530-2023.jpg",
       "category": "Laptop",
-      "price": "$1599.99",
+      "price": 1599,
       "description": "A powerful and stylish laptop with high-end features.",
       "Specification": [
         "15.6-inch 4K OLED display",
@@ -181,7 +181,7 @@
       "product_title": "MacBook Air M2",
       "product_image": "https://i.ibb.co.com/WvbJw7KV/Macbook-Air-Silver-M2-Price-in-Bangladesh.webp",
       "category": "Laptop",
-      "price": "$1199.99",
+      "price": 1199,
       "description": "Apple’s ultra-thin, ultra-light laptop with M2 chip.",
       "Specification": [
         "13.6-inch Liquid Retina Display",
@@ -197,7 +197,7 @@
       "product_title": "HP Spectre x360",
       "product_image": "https://i.ibb.co.com/fzNtgxfG/HP-Spectre-x360-14-inch.webp",
       "category": "Laptop",
-      "price": "$1399.99",
+      "price": 1399,
       "description": "A versatile convertible laptop with stunning display.",
       "Specification": [
         "14-inch OLED Touchscreen",
@@ -213,7 +213,7 @@
       "product_title": "Asus ROG Strix G15",
       "product_image": "https://i.ibb.co.com/wZxL39yp/dell-xps-15-9530-2023.jpg",
       "category": "Laptop",
-      "price": "$1699.99",
+      "price": 1699,
       "description": "A gaming laptop with high refresh rate display and powerful GPU.",
       "Specification": [
         "15.6-inch 300Hz display",
@@ -229,7 +229,7 @@
       "product_title": "Lenovo ThinkPad X1 Carbon",
       "product_image": "https://i.ibb.co.com/hxCxNcpP/lenovo-thinkpad-t16-black-01.jpg",
       "category": "Laptop",
-      "price": "$1499.99",
+      "price": 1499,
       "description": "A lightweight business laptop with top security features.",
       "Specification": [
         "14-inch FHD+ display",
@@ -245,7 +245,7 @@
       "product_title": "Acer Swift 5",
       "product_image": "https://i.ibb.co.com/wZxL39yp/dell-xps-15-9530-2023.jpg",
       "category": "Laptop",
-      "price": "$999.99",
+      "price": 999,
       "description": "A lightweight and portable ultrabook with a long battery life.",
       "Specification": [
         "14-inch IPS touchscreen",
@@ -261,7 +261,7 @@
       "product_title": "Razer Blade 15",
       "product_image": "https://i.ibb.co.com/wZxL39yp/dell-xps-15-9530-2023.jpg",
       "category": "Laptop",
-      "price": "$2199.99",
+      "price": 2199,
       "description": "A premium gaming laptop with cutting-edge performance.",
       "Specification": [
         "15.6-inch QHD 240Hz display",
@@ -277,7 +277,7 @@
       "product_title": "MSI GS66 Stealth",
       "product_image": "https://i.ibb.co.com/6J8v6Vdg/61n-H2o-T1uj-L.jpg",
       "category": "Laptop",
-      "price": "$1899.99",
+      "price": 1899,
       "description": "A powerful gaming laptop with a sleek design.",
       "Specification": [
         "15.6-inch 240Hz FHD display",
@@ -293,7 +293,7 @@
       "product_title": "Samsung Galaxy Book Pro",
       "product_image": "https://i.ibb.co.com/7dSYtXyK/samsung.jpg",
       "category": "Laptop",
-      "price": "$1299.99",
+      "price": 1299,
       "description": "An ultra-light laptop with AMOLED display.",
       "Specification": [
         "15.6-inch AMOLED display",
@@ -309,7 +309,7 @@
       "product_title": "Microsoft Surface Laptop 4",
       "product_image": "https://i.ibb.co.com/Q7HkH10C/RE4LJbI.jpg",
       "category": "Laptop",
-      "price": "$1299.99",
+      "price": 1299,
       "description": "A premium productivity laptop with a sleek design.",
       "Specification": [
         "13.5-inch PixelSense touchscreen",
@@ -325,7 +325,7 @@
       "product_title": "Apple Watch Series 8",
       "product_image": "https://i.ibb.co.com/G32cjqdp/Apple-Watch-Series-8.webp",
       "category": "Smart Watch",
-      "price": "$399.99",
+      "price": 399,
       "description": "A high-tech smartwatch with advanced health tracking.",
       "Specification": [
         "Always-on Retina display",
@@ -341,7 +341,7 @@
       "product_title": "Samsung Galaxy Watch 5",
       "product_image": "https://i.ibb.co.com/n8ZJcZw2/galaxy-watch5-bioacitive-sensor-bia-mo.webp",
       "category": "Smart Watch",
-      "price": "$349.99",
+      "price": 349,
       "description": "A feature-rich smartwatch with long battery life.",
       "Specification": [
         "1.4-inch AMOLED display",
@@ -357,7 +357,7 @@
       "product_title": "Garmin Fenix 7X",
       "product_image": "https://i.ibb.co.com/xSmSJvHJ/Samsung-Galaxy-Watch-5-Smartwatch-2.jpg",
       "category": "Smart Watch",
-      "price": "$899.99",
+      "price": 899,
       "description": "A rugged multisport GPS smartwatch.",
       "Specification": [
         "1.4-inch transflective display",
@@ -373,7 +373,7 @@
       "product_title": "Fitbit Versa 4",
       "product_image": "https://i.ibb.co.com/gM2C3f5L/images.jpg",
       "category": "Smart Watch",
-      "price": "$229.99",
+      "price": 229,
       "description": "A fitness-focused smartwatch with built-in Alexa.",
       "Specification": [
         "1.58-inch AMOLED display",
@@ -389,7 +389,7 @@
       "product_title": "TicWatch Pro 3",
       "product_image": "https://i.ibb.co.com/p6cxRdZy/galaxy-watch5-fitness-tracking-mo.webp",
       "category": "Smart Watch",
-      "price": "$299.99",
+      "price": 299,
       "description": "A powerful Wear OS smartwatch with dual display.",
       "Specification": [
         "1.4-inch dual-layer display",
@@ -405,7 +405,7 @@
       "product_title": "Huawei Watch GT 3",
       "product_image": "https://i.ibb.co.com/mrT6wS2b/7161-CULzh-L.jpg",
       "category": "Smart Watch",
-      "price": "$249.99",
+      "price": 249,
       "description": "A premium smartwatch with long battery life.",
       "Specification": [
         "1.43-inch AMOLED display",
@@ -421,7 +421,7 @@
       "product_title": "Amazfit GTR 4",
       "product_image": "https://i.ibb.co.com/PvzP7Lbf/932d63c63cb0350ee7141dab2062e20c-jpg-720x720q80-jpg.webp",
       "category": "Smart Watch",
-      "price": "$199.99",
+      "price": 199,
       "description": "A stylish smartwatch with fitness tracking.",
       "Specification": [
         "1.39-inch AMOLED display",
@@ -437,7 +437,7 @@
       "product_title": "Garmin Venu 2",
       "product_image": "https://i.ibb.co.com/DHk0ZPTG/HW68-Ultra-Mini-Smart-Watch-2.webp",
       "category": "Smart Watch",
-      "price": "$449.99",
+      "price": 449,
       "description": "A stylish fitness smartwatch with AMOLED display.",
       "Specification": [
         "1.3-inch AMOLED display",
@@ -453,7 +453,7 @@
       "product_title": "Fossil Gen 6",
       "product_image": "https://i.ibb.co.com/VphxHhKQ/noise-origin-smart-watch.webp",
       "category": "Smart Watch",
-      "price": "$299.99",
+      "price": 299,
       "description": "A fashionable Wear OS smartwatch with fast charging.",
       "Specification": [
         "1.28-inch AMOLED display",
@@ -469,7 +469,7 @@
       "product_title": "Withings ScanWatch",
       "product_image": "https://i.ibb.co.com/xtDSyHYn/672417-Product-0-I-638380218002657968.webp",
       "category": "Smart Watch",
-      "price": "$329.99",
+      "price": 329,
       "description": "A hybrid smartwatch with medical-grade health tracking.",
       "Specification": [
         "PMOLED display with analog hands",
@@ -485,7 +485,7 @@
       "product_title": "Wireless Bluetooth Earbuds",
       "product_image": "https://i.ibb.co.com/d0S9HCdJ/airbunds.png",
       "category": "Accessories",
-      "price": "$49.99",
+      "price": 90,
       "description": "High-quality wireless earbuds with noise cancellation.",
       "Specification": [
         "Bluetooth 5.0",
@@ -501,7 +501,7 @@
       "product_title": "Portable Power Bank",
       "product_image": "https://i.ibb.co.com/jv0RmqJy/Ugreen-Power-Bank-SOURCE-Ugreen-Gear.webp",
       "category": "Accessories",
-      "price": "$29.99",
+      "price": 60,
       "description": "A 10,000mAh portable charger with fast charging capabilities.",
       "Specification": [
         "10,000mAh capacity",
@@ -517,7 +517,7 @@
       "product_title": "Gaming Mouse",
       "product_image": "https://i.ibb.co.com/gb2THfn6/images-1.jpg",
       "category": "Accessories",
-      "price": "$39.99",
+      "price": 69,
       "description": "Ergonomic gaming mouse with customizable buttons.",
       "Specification": [
         "RGB lighting",
@@ -533,7 +533,7 @@
       "product_title": "Mechanical Keyboard",
       "product_image": "https://i.ibb.co.com/RpPTNtfZ/71y-Gtau-B-AL-AC-SL1500.jpg",
       "category": "Accessories",
-      "price": "$89.99",
+      "price": 89.99,
       "description": "High-quality mechanical keyboard with RGB lighting.",
       "Specification": [
         "Mechanical switches",
@@ -549,7 +549,7 @@
       "product_title": "USB-C Hub",
       "product_image": "https://i.ibb.co.com/3thY45R/61-Qb-S525pg-L-AC-SL1500.jpg",
       "category": "Accessories",
-      "price": "$24.99",
+      "price": 84.99,
       "description": "Multi-port USB-C hub with HDMI and USB 3.0.",
       "Specification": [
         "4 USB 3.0 ports",
@@ -565,7 +565,7 @@
       "product_title": "Wireless Charging Pad",
       "product_image": "https://i.ibb.co.com/bMWM9VBm/md.webp",
       "category": "Accessories",
-      "price": "$19.99",
+      "price": 85.5,
       "description": "Fast wireless charging pad for smartphones and accessories.",
       "Specification": [
         "10W fast charging",
@@ -581,7 +581,7 @@
       "product_title": "Laptop Cooling Pad",
       "product_image": "https://i.ibb.co.com/mCSKPbx6/laptop-colling.jpg",
       "category": "Accessories",
-      "price": "$34.99",
+      "price": 80,
       "description": "Cooling pad with adjustable fan speed for laptops.",
       "Specification": [
         "5 cooling fans",
@@ -597,7 +597,7 @@
       "product_title": "Smartphone Car Mount",
       "product_image": "https://i.ibb.co.com/dsypwR9s/car-mount.jpg",
       "category": "Accessories",
-      "price": "$14.99",
+      "price": 55,
       "description": "Magnetic smartphone car mount for easy hands-free use.",
       "Specification": [
         "360-degree rotation",
@@ -613,7 +613,7 @@
       "product_title": "Noise Cancelling Headphones",
       "product_image": "https://i.ibb.co.com/xSMjVWxw/noise-cancelling.jpg",
       "category": "Accessories",
-      "price": "$129.99",
+      "price": 129.99,
       "description": "Premium noise-canceling headphones with immersive sound.",
       "Specification": [
         "Active noise cancellation",
@@ -629,7 +629,7 @@
       "product_title": "iPhone 15 Pro Max",
       "product_image": "https://i.ibb.co.com/RkRRWzmH/iphone-15.jpg",
       "category": "iPhones",
-      "price": "$1,199.99",
+      "price": 1199.9,
       "description": "The latest iPhone with a powerful A17 Bionic chip and ProMotion display.",
       "Specification": [
         "6.7-inch Super Retina XDR display",
@@ -645,7 +645,7 @@
       "product_title": "iPhone 15 Pro",
       "product_image": "https://i.ibb.co.com/RkRRWzmH/iphone-15.jpg",
       "category": "iPhones",
-      "price": "$1,099.99",
+      "price": 1099,
       "description": "A powerful iPhone with advanced camera features and titanium design.",
       "Specification": [
         "6.1-inch Super Retina XDR display",
@@ -661,7 +661,7 @@
       "product_title": "iPhone 15",
       "product_image": "https://i.ibb.co.com/DP7w5xvL/iphone-13-pro-max-gold.jpg",
       "category": "iPhones",
-      "price": "$799.99",
+      "price": 799.99,
       "description": "The latest iPhone with Dynamic Island and USB-C charging.",
       "Specification": [
         "6.1-inch Liquid Retina display",
@@ -677,7 +677,7 @@
       "product_title": "iPhone 14 Pro Max",
       "product_image": "https://i.ibb.co.com/DPPhZt61/apple-iphone-14-pro-max-gold-official-image.webp",
       "category": "iPhones",
-      "price": "$1,099.99",
+      "price": 1099.99,
       "description": "A premium iPhone with Always-on display and Dynamic Island.",
       "Specification": [
         "6.7-inch Super Retina XDR display",
@@ -693,7 +693,7 @@
       "product_title": "iPhone 14",
       "product_image": "https://i.ibb.co.com/21Tw70Gc/maxresdefault.jpg",
       "category": "iPhones",
-      "price": "$699.99",
+      "price": 699.99,
       "description": "A powerful iPhone with impressive camera performance.",
       "Specification": [
         "6.1-inch Super Retina XDR display",
@@ -709,7 +709,7 @@
       "product_title": "iPhone 13 Pro Max",
       "product_image": "https://i.ibb.co.com/DP7w5xvL/iphone-13-pro-max-gold.jpg",
       "category": "iPhones",
-      "price": "$999.99",
+      "price": 999.99,
       "description": "A high-performance iPhone with ProMotion technology.",
       "Specification": [
         "6.7-inch Super Retina XDR display",
@@ -725,7 +725,7 @@
       "product_title": "iPhone 13",
       "product_image": "https://i.ibb.co.com/RkR34wGw/swappie-iphone-13-pro-max-graphite.jpg",
       "category": "iPhones",
-      "price": "$599.99",
+      "price": 599.99,
       "description": "A reliable iPhone with powerful performance and battery life.",
       "Specification": [
         "6.1-inch Super Retina XDR display",
@@ -741,7 +741,7 @@
       "product_title": "iPhone SE",
       "product_image": "https://i.ibb.co.com/WNZFvLPy/iphone-se-review-jbareham-verge-15-0-0-1458907434.webp",
       "category": "iPhones",
-      "price": "$429.99",
+      "price": 429.99,
       "description": "An affordable iPhone with a powerful A15 Bionic chip.",
       "Specification": [
         "4.7-inch Retina HD display",

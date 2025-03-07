@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Categories = ({ categories = [] }) => {
     return (
         <div>
-            <h2 className="text-lg font-semibold mb-4">Categories</h2>
+           
             <div className="flex flex-col gap-2">
                 {categories.length > 0 ? (
                     categories.map((category, index) => (

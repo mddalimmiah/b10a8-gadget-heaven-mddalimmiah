@@ -12,8 +12,8 @@ const Home = () => {
             <Banner />
 
             {/* Section Header */}
-            <div className="border-2 bg-red-500 p-4 rounded-md">
-                <h2 className="text-center text-4xl font-bold text-white">
+            <div className="mt-6">
+                <h2 className="text-center text-4xl font-bold text-[#9538E2]">
                     Explore Cutting-Edge Gadgets
                 </h2>
             </div>

@@ -6,10 +6,18 @@ const Navbar = () => {
 
     const links =
         <>
-            <li><NavLink to={'/'}>Home</NavLink></li>
-            <li><NavLink to={'/statistics'}>Statistics</NavLink></li>
-            <li><NavLink to={'/dashboard'}>Dashboard</NavLink></li>
-            <li><NavLink to={'/others'}>others</NavLink></li>
+            <li><NavLink  className={({ isActive }) =>
+          isActive ? "text-yellow-600 font-bold underline" : "text-white"
+        }  to={'/'}>Home</NavLink></li>
+            <li><NavLink className={({ isActive }) =>
+          isActive ? "text-yellow-600 font-bold underline" : "text-white"
+        } to={'/statistics'}>Statistics</NavLink></li>
+            <li><NavLink className={({ isActive }) =>
+          isActive ? "text-yellow-600 font-bold underline" : "text-white"
+        } to={'/dashboard'}>Dashboard</NavLink></li>
+            <li><NavLink className={({ isActive }) =>
+          isActive ? "text-yellow-600 font-bold underline" : "text-white"
+        } to={'/others'}>others</NavLink></li>
 
         </>
     return (

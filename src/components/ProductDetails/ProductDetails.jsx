@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
+import { AiOutlineShoppingCart } from "react-icons/ai";
+import { FaRegHeart } from "react-icons/fa";
 
 const ProductDetails = () => {
     const { product_id } = useParams();
@@ -17,7 +19,7 @@ const ProductDetails = () => {
             })
             .then((data) => {
                 console.log("Fetched Data:", data);
-                
+
                 // Ensure the `products` key exists and is an array
                 if (!data.products || !Array.isArray(data.products)) {
                     throw new Error("Unexpected data format. Expected an array inside 'products'.");
@@ -46,15 +48,16 @@ const ProductDetails = () => {
     if (!product) return <p className="text-center text-red-500">Product not found</p>;
 
     // Destructure product data
-    const { product_title, product_image, price, description, Specification,  } = product;
+    const { product_title, product_image, price, description, Specification,rating } = product;
 
     return (
-        <div className="bg-white shadow-md p-4 rounded-lg flex gap-6">
+        <div>
+            <div className="bg-white shadow-md p-4 rounded-lg flex gap-6  justify-center items-center">
             <figure>
-                <img 
-                    className="h-[200px] w-full object-cover rounded-lg" 
-                    src={product_image} 
-                    alt={product_title} 
+                <img
+                    className="h-[200px] w-full object-cover rounded-lg"
+                    src={product_image}
+                    alt={product_title}
                 />
             </figure>
             <div className="mt-2 space-y-2">
@@ -63,15 +66,44 @@ const ProductDetails = () => {
                 <button className="btn outline rounded-4xl">In Stock</button>
                 <p>{description}</p>
                 <div>
-                        <h3 className="font-semibold text-lg mt-2">Specifications:</h3>
-                        <ul className="list-decimal list-inside">
-                            {Specification.map((spec, index) => (
-                                <li key={index}> {spec}</li>
-                            ))}
-                        </ul>
-                    </div>
+                    <h3 className="font-semibold text-lg mt-2">Specifications:</h3>
+                    <ul className="list-decimal list-inside">
+                        {Specification.map((spec, index) => (
+                            <li key={index}> {spec}</li>
+                        ))}
+                    </ul>
+                </div>
+                <h2 className="font-bold">Rating:</h2>
+                <div className="flex gap-4">
+                    
+                    <div className="rating">
+                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="1 star" />
+                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="2 star"  />
+                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="3 star" />
+                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="4 star" defaultChecked />
+                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="5 star" />
+                    
+                </div>
+                {rating}
+                </div>
+
             </div>
+
+           
         </div>
+       <div>
+       <div className="flex justify-center items-center">
+                <div className='bg-white rounded-full flex  '>
+                    <NavLink  to="/cart" className={`flex justify-center items-center bg-[#9538E2] rounded-3xl p-4 gap-4 text-white`}>Add To Cart <AiOutlineShoppingCart /> </NavLink>
+                </div>
+
+                <div className='bg-white rounded-full flex justify-center items-center px-4 w-10 h-10'>
+                    <NavLink to="/wishlist" className={`text-3xl ml-4`}><FaRegHeart /> </NavLink>
+                </div>
+            </div>
+       </div>
+        </div>
+        
     );
 };
 
