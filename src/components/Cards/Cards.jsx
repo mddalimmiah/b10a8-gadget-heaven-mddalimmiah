@@ -24,7 +24,7 @@ const Cards = () => {
         } else {
             setProducts(allProducts); 
         }
-    }, [category, data]); 
+    }, [category, allProducts]); 
 
    
 

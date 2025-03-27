@@ -7,6 +7,7 @@ import Statistics from "../pages/Statistics";
 
 import ProductDetails from "../components/ProductDetails/ProductDetails";
 import Cards from "../components/Cards/Cards";
+import Products from "../pages/Products";
 
 const routes =createBrowserRouter([
 
@@ -18,17 +19,17 @@ const routes =createBrowserRouter([
         {
           path: '/',
           element: <Home />,
-          loader: () => fetch('/category.json'),
+          loader: () => fetch('../category.json'),
           children: [
               {
                   path: '/',
                   element: <Cards></Cards>,
-                  loader: () => fetch('/products.json'),
+                  loader: () => fetch('../products.json'),
               },
               {
                   path: 'category/:category?',
                   element: <Cards></Cards>,
-                  loader: () => fetch('/products.json'),
+                  loader: () => fetch('../products.json'),
               },
             
           ],
@@ -38,6 +39,7 @@ const routes =createBrowserRouter([
         {
           path:'/dashboard',
           element: <Dashboard></Dashboard>,
+          
         },
         {
           path:'/statistics',
@@ -46,6 +48,12 @@ const routes =createBrowserRouter([
         {
           path:'/product-details/:product_id',
           element: <ProductDetails></ProductDetails>,
+         
+        },
+        {
+          path:'/products',
+          element: <Products></Products>,
+          loader: () => fetch('/products.json'),
          
         },
       ],

@@ -1,12 +1,15 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
+import Dashboard from "../../pages/Dashboard";
+import { FaTrash } from "react-icons/fa";
 
-const Card = ({ product }) => {
+const Card = ({ product, handleRemoved   }) => {
+    const { pathname } =useLocation();
     if (!product) return null;
     
     const { product_id, product_title, product_image, price } = product;
 
     return (
-        <div className="bg-white shadow-md p-4 rounded-lg">
+        <div className="bg-white shadow-md p-4 rounded-lg relative">
             <figure>
                 <img 
                     className="h-[200px] w-[300px] object-cover rounded-lg" 
@@ -24,6 +27,11 @@ const Card = ({ product }) => {
                 View Details
                 </NavLink>
             </div>
+            {
+                pathname ==='/dashboard' && (
+                   <div onClick={() => handleRemoved(product_id)} className="absolute -top-1 right-20 p-3 bg-warning rounded-full cursor-pointer"><FaTrash size={20} /></div>
+                )
+            }
         </div>
     );
 };

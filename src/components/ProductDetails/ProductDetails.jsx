@@ -2,12 +2,15 @@ import { useEffect, useState } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { FaRegHeart } from "react-icons/fa";
+import { addCartProduct, getAllProduct } from "../utiltiy";
 
 const ProductDetails = () => {
     const { product_id } = useParams();
     const [product, setProduct] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+
+    const [isCartProduct, setIsCartProduct] =useState(false);
 
     useEffect(() => {
         fetch("/products.json")
@@ -20,20 +23,27 @@ const ProductDetails = () => {
             .then((data) => {
                 console.log("Fetched Data:", data);
 
-                // Ensure the `products` key exists and is an array
+                
                 if (!data.products || !Array.isArray(data.products)) {
                     throw new Error("Unexpected data format. Expected an array inside 'products'.");
                 }
 
-                // Find product by `product_id`
+                
                 const foundProduct = data.products.find((p) => p.product_id === product_id);
-
+                
                 if (!foundProduct) {
                     throw new Error("Product not found");
                 }
 
                 setProduct(foundProduct);
+
+                const cartProduct =getAllProduct();
+                const isExist=cartProduct.find(item => item.product_id ==foundProduct.product_id);
+                if(isExist){
+                    setIsCartProduct(true);
+                }
                 setLoading(false);
+
             })
             .catch((error) => {
                 console.error("Error fetching product:", error);
@@ -50,6 +60,16 @@ const ProductDetails = () => {
     // Destructure product data
     const { product_title, product_image, price, description, Specification,rating } = product;
 
+
+    const handleCartClicked = (product) =>{
+        addCartProduct(product)
+        setIsCartProduct(true);
+        // getAllProduct()
+    }
+
+    const handleWishClicked = (id) =>{
+        addToStoreWishList(id)
+    }
     return (
         <div>
             <div className="bg-white shadow-md p-4 rounded-lg flex gap-6  justify-center items-center">
@@ -94,11 +114,13 @@ const ProductDetails = () => {
        <div>
        <div className="flex justify-center items-center">
                 <div className='bg-white rounded-full flex  '>
-                    <NavLink  to="/cart" className={`flex justify-center items-center bg-[#9538E2] rounded-3xl p-4 gap-4 text-white`}>Add To Cart <AiOutlineShoppingCart /> </NavLink>
+                    <NavLink disabled={isCartProduct}  
+                    onClick={()=> handleCartClicked(product)}  className={`flex btn justify-center items-center bg-[#9538E2] rounded-3xl p-3 gap-4 text-white`}>Add To Cart <AiOutlineShoppingCart /> 
+                    </NavLink>
                 </div>
 
                 <div className='bg-white rounded-full flex justify-center items-center px-4 w-10 h-10'>
-                    <NavLink to="/wishlist" className={`text-3xl ml-4`}><FaRegHeart /> </NavLink>
+                    <NavLink onClick={()=> handleWishClicked(product_id)} className={`text-3xl ml-4`}><FaRegHeart /> </NavLink>
                 </div>
             </div>
        </div>

@@ -17,7 +17,7 @@ const Navbar = () => {
         } to={'/dashboard'}>Dashboard</NavLink></li>
             <li><NavLink className={({ isActive }) =>
           isActive ? "text-yellow-600 font-bold underline" : "text-white"
-        } to={'/others'}>others</NavLink></li>
+        } to={'/products'}>Products</NavLink></li>
 
         </>
     return (
