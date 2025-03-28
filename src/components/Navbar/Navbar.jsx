@@ -7,16 +7,16 @@ const Navbar = () => {
     const links =
         <>
             <li><NavLink  className={({ isActive }) =>
-          isActive ? "text-yellow-600 font-bold underline" : "text-red-400"
+          isActive ? "text-yellow-600 font-bold underline" : "text-white"
         }  to={'/'}>Home</NavLink></li>
             <li><NavLink className={({ isActive }) =>
-          isActive ? "text-yellow-600 font-bold underline" : "text-red-400"
+          isActive ? "text-yellow-600 font-bold underline" : "text-white"
         } to={'/statistics'}>Statistics</NavLink></li>
             <li><NavLink className={({ isActive }) =>
-          isActive ? "text-yellow-600 font-bold underline" : "text-red-400"
+          isActive ? "text-yellow-600 font-bold underline" : "text-white"
         } to={'/dashboard'}>Dashboard</NavLink></li>
             <li><NavLink className={({ isActive }) =>
-          isActive ? "text-yellow-600 font-bold underline" : "text-red-400"
+          isActive ? "text-yellow-600 font-bold underline" : "text-white"
         } to={'/products'}>Products</NavLink></li>
 
         </>
@@ -41,7 +41,7 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 font-medium rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm dropdown-content bg-green-400 font-medium rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         {links}
 
                     </ul>
