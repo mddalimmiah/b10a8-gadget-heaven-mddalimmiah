@@ -7,16 +7,16 @@ const Navbar = () => {
     const links =
         <>
             <li><NavLink  className={({ isActive }) =>
-          isActive ? "text-yellow-600 font-bold underline" : "text-white"
+          isActive ? "text-yellow-600 font-bold underline" : "text-red-400"
         }  to={'/'}>Home</NavLink></li>
             <li><NavLink className={({ isActive }) =>
-          isActive ? "text-yellow-600 font-bold underline" : "text-white"
+          isActive ? "text-yellow-600 font-bold underline" : "text-red-400"
         } to={'/statistics'}>Statistics</NavLink></li>
             <li><NavLink className={({ isActive }) =>
-          isActive ? "text-yellow-600 font-bold underline" : "text-white"
+          isActive ? "text-yellow-600 font-bold underline" : "text-red-400"
         } to={'/dashboard'}>Dashboard</NavLink></li>
             <li><NavLink className={({ isActive }) =>
-          isActive ? "text-yellow-600 font-bold underline" : "text-white"
+          isActive ? "text-yellow-600 font-bold underline" : "text-red-400"
         } to={'/products'}>Products</NavLink></li>
 
         </>

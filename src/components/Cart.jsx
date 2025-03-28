@@ -8,7 +8,7 @@ const Cart = ({ product, handleRemoved   }) => {
     const { product_id, product_title, product_image, price, description } = product;
 
     return (
-        <div className="bg-white shadow-md p-4 rounded-lg relative flex">
+        <div className="bg-white shadow-md p-4 rounded-lg relative flex gap-5">
             <figure>
                 <img 
                     className="h-[200px] w-[300px] object-cover rounded-lg" 

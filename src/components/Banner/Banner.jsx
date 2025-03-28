@@ -2,7 +2,7 @@ import React from 'react';
 import bannerImg from '../../assets/banner.jpg';
 const Banner = () => {
     return (
-        <div className='bg-[#9538E2]'>
+        <div className='bg-[#9538E2] w-full'>
             <div className="hero  min-h-screen  ">
                 <div className="hero-content text-center text-white">
                     <div className="">
