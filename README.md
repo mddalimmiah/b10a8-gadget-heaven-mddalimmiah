@@ -11,6 +11,7 @@ my project, components like Banner, Categories, ProductDetails, Cart, and WishLi
 5. Event Handling
 6. useLoader
 7. toaster
+8. localStorage
 
 Project Feature: 
 1. 1. Product Catalog with Categories:

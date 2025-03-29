@@ -4,6 +4,7 @@ import Heading from '../components/Heading/Heading';
 import Cart from '../components/Cart';
 import { getAllWishListProduct, removeWishListProduct } from '../components/utiltiy/whislist';
 import WishList from '../components/WishList';
+import { Helmet } from 'react-helmet-async';
 
 const Dashboard = () => {
     const [products, setProducts] = useState([]);
@@ -63,6 +64,9 @@ const Dashboard = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Gadget-heaven | Dashboard</title>
+            </Helmet>
             <Heading title={'Dashboard'} subtitle={'Explore the latest gadgets!'}></Heading>
 
             {/* Toggle Buttons */}

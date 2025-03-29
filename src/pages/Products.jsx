@@ -1,6 +1,7 @@
 import { useLoaderData } from 'react-router-dom';
 import Card from '../components/Card/Card';
 import { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const Products = () => {
   const data = useLoaderData();
@@ -25,6 +26,9 @@ const Products = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Gadget-heaven | Products</title>
+      </Helmet>
       {/* Sorting Buttons */}
       <div className="flex justify-between py-6">
         <button onClick={handleSortByAvailability} className="btn bg-blue-500 text-white p-4 rounded-2xl">

@@ -1,6 +1,7 @@
 import Banner from '../components/Banner/Banner';
 import { Outlet, useLoaderData } from 'react-router-dom';
 import Categories from '../components/Categories/Categories';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
     const data = useLoaderData(); // Fetch the data from loader
@@ -8,6 +9,9 @@ const Home = () => {
   
     return (
         <div>
+            <Helmet>
+                <title>Gadget-heaven | Home</title>
+            </Helmet>
             {/* Banner Section */}
             <Banner />
 

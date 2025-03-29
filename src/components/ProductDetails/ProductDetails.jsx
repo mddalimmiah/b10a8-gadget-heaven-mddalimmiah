@@ -4,6 +4,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { FaRegHeart } from "react-icons/fa";
 import { addCartProduct, getAllProduct } from "../utiltiy";
 import { addWishListProduct, getAllWishListProduct } from "../utiltiy/whislist";
+import { Helmet } from "react-helmet-async";
 
 const ProductDetails = () => {
     const { product_id } = useParams();
@@ -88,6 +89,9 @@ const ProductDetails = () => {
     }
     return (
         <div>
+            <Helmet>
+                <title>Gadget-heaven | ProductDetails</title>
+            </Helmet>
             <div className="bg-white shadow-md p-4 rounded-lg flex gap-6  justify-center items-center">
             <figure>
                 <img
